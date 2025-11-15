@@ -1,7 +1,7 @@
 package org.examples;
 
-import DataStructures.algorithms.search.LinearSearch;
-import DataStructures.types.Array;
+import cs.algorithms.search.LinearSearch;
+import cs.types.Array;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

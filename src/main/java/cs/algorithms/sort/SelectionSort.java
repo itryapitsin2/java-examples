@@ -1,6 +1,6 @@
-package DataStructures.algorithms.sort;
+package cs.algorithms.sort;
 
-import DataStructures.types.Comparable;
+import cs.types.Comparable;
 
 public class SelectionSort<T extends Comparable<T>> implements Sort<T> {
     @Override

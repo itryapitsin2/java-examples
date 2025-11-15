@@ -1,4 +1,4 @@
-package DataStructures.types;
+package cs.types;
 
 public class Array<T> implements List<T> {
     protected T[] items;

@@ -1,4 +1,4 @@
-package DataStructures.algorithms.calc;
+package cs.algorithms.calc;
 
 public class GreatestCommonDivisor {
     /**

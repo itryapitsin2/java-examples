@@ -1,14 +1,14 @@
 package org.examples;
 
-import DataStructures.algorithms.search.BinarySearch;
-import DataStructures.algorithms.search.BinarySearch.Type;
-import DataStructures.algorithms.sort.BubbleSort;
-import DataStructures.algorithms.sort.CombSort;
-import DataStructures.algorithms.sort.InsertionSort;
-import DataStructures.algorithms.sort.MixSort;
-import DataStructures.algorithms.sort.SelectionSort;
-import DataStructures.types.Comparable;
-import DataStructures.types.OrderedArray;
+import cs.algorithms.search.BinarySearch;
+import cs.algorithms.search.BinarySearch.Type;
+import cs.algorithms.sort.BubbleSort;
+import cs.algorithms.sort.CombSort;
+import cs.algorithms.sort.InsertionSort;
+import cs.algorithms.sort.MixSort;
+import cs.algorithms.sort.SelectionSort;
+import cs.types.Comparable;
+import cs.types.OrderedArray;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import java.util.Random;

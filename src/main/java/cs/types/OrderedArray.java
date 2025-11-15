@@ -1,6 +1,6 @@
-package DataStructures.types;
+package cs.types;
 
-import DataStructures.algorithms.sort.Sort;
+import cs.algorithms.sort.Sort;
 
 public class OrderedArray<T extends Comparable<T>> extends Array<T> {
 

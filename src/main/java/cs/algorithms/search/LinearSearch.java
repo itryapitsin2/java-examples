@@ -1,6 +1,6 @@
-package DataStructures.algorithms.search;
+package cs.algorithms.search;
 
-import DataStructures.types.List;
+import cs.types.List;
 
 public class LinearSearch<T> implements Search<List<T>, T> {
     public int find(List<T> list, T element) {

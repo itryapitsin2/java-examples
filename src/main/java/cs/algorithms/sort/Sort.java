@@ -1,6 +1,6 @@
-package DataStructures.algorithms.sort;
+package cs.algorithms.sort;
 
-import DataStructures.types.Comparable;
+import cs.types.Comparable;
 
 public interface Sort<T extends Comparable<T>> {
     T[] sort(T[] items, long count);

@@ -1,8 +1,8 @@
-package DataStructures.algorithms.search;
+package cs.algorithms.search;
 
 
-import DataStructures.types.Comparable;
-import DataStructures.types.OrderedArray;
+import cs.types.Comparable;
+import cs.types.OrderedArray;
 
 public class BinarySearch<T extends Comparable<T>> implements Search<OrderedArray<T>, T> {
 

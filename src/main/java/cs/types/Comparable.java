@@ -1,4 +1,4 @@
-package DataStructures.types;
+package cs.types;
 
 public interface Comparable<T> {
     boolean left(T element);
