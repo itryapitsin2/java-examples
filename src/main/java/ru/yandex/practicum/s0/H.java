@@ -1,4 +1,4 @@
-package ru.yandex.practicum.sprint0;
+package ru.yandex.practicum.s0;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package ru.yandex.practicum.sprint0.last;
+package ru.yandex.practicum.s0.feedback;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -46,7 +46,7 @@ public class A {
 
     public static void main(String[] args) throws IOException {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out))) {
+            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out))) {
             int n = Integer.parseInt(reader.readLine());
             List<Integer> street = readList(reader);
             List<Integer> distance = calcDistance(street, n);
@@ -67,7 +67,7 @@ public class A {
                         writer.write(String.valueOf(elem));
                         writer.write(" ");
                     } catch (IOException e) {
-
+                        throw new RuntimeException(e);
                     }
                 }
         );

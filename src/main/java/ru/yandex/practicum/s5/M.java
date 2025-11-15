@@ -1,4 +1,4 @@
-package ru.yandex.practicum.sprint5;
+package ru.yandex.practicum.s5;
 
 public class M {
     public static int siftUp(int[] heap, int idx) {

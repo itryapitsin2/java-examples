@@ -1,4 +1,4 @@
-package ru.yandex.practicum.sprint5;
+package ru.yandex.practicum.s5;
 
 import java.util.Scanner;
 

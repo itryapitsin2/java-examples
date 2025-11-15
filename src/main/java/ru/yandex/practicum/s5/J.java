@@ -1,4 +1,4 @@
-package ru.yandex.practicum.sprint5;
+package ru.yandex.practicum.s5;
 
 public class J {
     public static Node insert(Node root, int key) {

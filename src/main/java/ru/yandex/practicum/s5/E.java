@@ -1,26 +1,9 @@
-package ru.yandex.practicum.sprint5;
+package ru.yandex.practicum.s5;
 
 import java.util.Scanner;
 
-public class A {
-    public static int treeSolution(Node head) {
-        int maxNode = head.value;
 
-        if (head.left != null) {
-            int left = treeSolution(head.left);
-            maxNode = Math.max(maxNode, Math.max(head.value, left));
-        }
-
-
-        if (head.right != null) {
-            int right = treeSolution(head.right);
-            maxNode = Math.max(maxNode, Math.max(head.value, right));
-        }
-
-        return maxNode;
-    }
-
-    // <template>
+public class E {
     private static class Node {
         int value;
         Node left;
@@ -31,19 +14,39 @@ public class A {
             this.left = null;
             this.right = null;
         }
+
+        Node(int value, Node left, Node right) {
+            this.value = value;
+            this.left = left;
+            this.right = right;
+        }
     }
-    // <template>
+
+    public static boolean isBinaryTree(Node head, int min, int max) {
+        if (head == null) {
+            return true;
+        }
+
+        if (head.value <= min || head.value > max) {
+            return false;
+        }
+
+        return isBinaryTree(head.left, min, head.value) && isBinaryTree(head.right, head.value, max);
+    }
+
+    public static boolean treeSolution(Node head) {
+        return isBinaryTree(head, Integer.MIN_VALUE, Integer.MAX_VALUE);
+    }
 
     public static void main(String[] args) {
-
         try(Scanner scanner = new Scanner(System.in)) {
             int nodeCount = scanner.nextInt();
             scanner.nextLine();
 
             Node root = readTree(scanner, nodeCount);
-            int max = treeSolution(root);
+            boolean isBinary = treeSolution(root);
 
-            System.out.println(max);
+            System.out.println(isBinary ? "True" : "False");
         }
     }
 
@@ -66,3 +69,4 @@ public class A {
         return nodes[0];
     }
 }
+

@@ -1,4 +1,4 @@
-package ru.yandex.practicum.sprint5.final_tasks;
+package ru.yandex.practicum.s5.final_tasks;
 
 import java.util.*;
 

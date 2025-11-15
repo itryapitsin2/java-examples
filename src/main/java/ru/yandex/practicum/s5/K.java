@@ -1,8 +1,6 @@
-package ru.yandex.practicum.sprint5;
+package ru.yandex.practicum.s5;
 
-import java.io.BufferedWriter;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 
 public class K {
 
